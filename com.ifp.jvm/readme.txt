@@ -1,4 +1,4 @@
-XX  对虚拟机的设置
+XX  对虚拟机的设置  + 表示启用  - 表示禁用
 xm  对程序的设置
 
 
@@ -24,4 +24,11 @@ Xss  设置栈大小
 
 
 TLAB 全称 Thread Local Allocation buffernn即线程本地分配的缓存，是一个线程专用的内存分配区域，
-是为了加速对象分配而生的
+是为了加速对象分配而生的，当大对象无法在TLAB上分配时候，则会分配到堆中
+-XX:+UseTLAB 使用TLAB
+-XX:TLABSize 设置TLAB大小
+-XX:TLABRefillWasteFraction 设置维护进入TLAB空间的单个对象大小，它是一个比例值，默认是64
+                            即如果对象大于整个空间的1/64 ，则在堆中创建对象
+
+-XX:+PrintTLAB 查看TLAB信息
+-XX:ResizeTLAB 自动调整 TLABRefillWasteFraction 阀值
