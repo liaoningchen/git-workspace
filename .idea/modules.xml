@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/com.cdy.activemq/com.cdy.activemq.iml" filepath="$PROJECT_DIR$/com.cdy.activemq/com.cdy.activemq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.cdy.cglib/com.cdy.cglib.iml" filepath="$PROJECT_DIR$/com.cdy.cglib/com.cdy.cglib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.cdy.mq/com.cdy.mq.iml" filepath="$PROJECT_DIR$/com.cdy.mq/com.cdy.mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.ifp.jvm/com.ifp.jvm.iml" filepath="$PROJECT_DIR$/com.ifp.jvm/com.ifp.jvm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/git-workspace.iml" filepath="$PROJECT_DIR$/.idea/git-workspace.iml" />
+    </modules>
+  </component>
+</project>
